@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: math-problem-verify-service
+  config:
+    import:
+      - classpath:properties/datasource.yml
+      - classpath:properties/jpa.yml
+
+logging:
+  level:
+    root: info
+    org.springframework: info
